@@ -1,0 +1,862 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1673282135200559, "dur":737, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135201302, "dur":411, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1673282135201746, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1673282135201771, "dur":391, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1673282135202190, "dur":587, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135202777, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135470632, "dur":175, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135470808, "dur":111, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135470920, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135470926, "dur":50, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135470976, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135470979, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135470989, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135470992, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135470999, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471001, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471008, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471010, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471016, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471018, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471024, "dur":65, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471089, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471097, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471100, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471114, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471117, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471124, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471126, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471132, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471134, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471142, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471155, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135471183, "dur":2079, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1673282135202246, "dur":538, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135202786, "dur":1466, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135204271, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673282135204276, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135204335, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673282135204337, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135204365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135204632, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673282135206364, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1673282135206382, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135206397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135206557, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1673282135207368, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1673282135207398, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135207413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135207419, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1673282135208444, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135208473, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135208491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135208607, "dur":9632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135218250, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135218262, "dur":47476, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135265811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135266069, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135266868, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135266887, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135266905, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135266960, "dur":41795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135308771, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135308788, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135308808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135308813, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135310036, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135310056, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135310206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135310218, "dur":2419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135312650, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135312662, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135312717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135312747, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135314907, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135315001, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135315172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135315177, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135317068, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135317080, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135317473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135317479, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135321522, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135321622, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135321755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135321761, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135322943, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135323047, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135323067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135323072, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135324866, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135324992, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135325118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135325124, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135326486, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135326499, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135326536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135326541, "dur":2556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135329109, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135329122, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135329139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135329143, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135330380, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135330395, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135330414, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135330419, "dur":2045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673282135332483, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1673282135332503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135332520, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1673282135333979, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1673282135333996, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135333999, "dur":31192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1673282135365201, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1673282135365215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135365219, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1673282135365954, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level11" }}
+,{ "pid":12345, "tid":1, "ts":1673282135365985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135365992, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level11" }}
+,{ "pid":12345, "tid":1, "ts":1673282135366721, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1673282135366736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673282135366740, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1673282135369244, "dur":101388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135202374, "dur":436, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135202811, "dur":1446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135204272, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1673282135204370, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135204495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135212094, "dur":60262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1673282135272370, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135272387, "dur":35337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135307731, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135307771, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135309089, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135309107, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135309203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135309208, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135311804, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135311820, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135311856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135311862, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135313557, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135313569, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135313619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135313624, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135314796, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135314808, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135314981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135314986, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135317040, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135317057, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135317475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135317480, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135319799, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135319879, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135319929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135319933, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135320772, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135320852, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135320884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135320888, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135322455, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135322534, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135322679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135322685, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135324098, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135324713, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135324893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135324900, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135326551, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135326566, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135326591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135326596, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135327706, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135327717, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135327733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135327737, "dur":6145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673282135333895, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":2, "ts":1673282135333918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135333923, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":2, "ts":1673282135335095, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1673282135335109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135335113, "dur":7406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1673282135342583, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":2, "ts":1673282135342601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135342607, "dur":2462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":2, "ts":1673282135345090, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1673282135345217, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135345267, "dur":4983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1673282135350320, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1673282135350355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135350402, "dur":10045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1673282135360458, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level6" }}
+,{ "pid":12345, "tid":2, "ts":1673282135360473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135360477, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level6" }}
+,{ "pid":12345, "tid":2, "ts":1673282135363673, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1673282135363691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135363695, "dur":4851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1673282135368560, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1673282135368574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673282135368578, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1673282135371202, "dur":99477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135202275, "dur":515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135202790, "dur":1471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135204269, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1673282135204360, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135204438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135209103, "dur":6936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1673282135216053, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135216072, "dur":49699, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135265823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135265941, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135266854, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135266879, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135266900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135266906, "dur":41627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135308547, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135308567, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135308690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135308695, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135310270, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135310288, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135310325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135310330, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135312371, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135312382, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135312537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135312541, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135314460, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135314474, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135314694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135314699, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135316854, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135316983, "dur":487, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135317476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135317482, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135319076, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135319250, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135319272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135319277, "dur":4650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135323942, "dur":6706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135330648, "dur":858, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135331511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135331518, "dur":15322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673282135346879, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1673282135346923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135346928, "dur":8015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1673282135354967, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1673282135354988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135354996, "dur":5704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1673282135360716, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1673282135360736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673282135360742, "dur":11190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1673282135371952, "dur":98714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135202319, "dur":477, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135202796, "dur":1463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135204272, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1673282135204354, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135204433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135208770, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1673282135210591, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle.exe" }}
+,{ "pid":12345, "tid":4, "ts":1673282135210606, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135210616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135210619, "dur":56562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle.exe" }}
+,{ "pid":12345, "tid":4, "ts":1673282135267192, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135267208, "dur":40524, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135307777, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135307786, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135309004, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135309022, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135309236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135309244, "dur":2627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135311929, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135311943, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135312167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135312174, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135313724, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135313738, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135314051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135314059, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135315594, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135315607, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135315834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135315840, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135317925, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135317940, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135318072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135318077, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135319710, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135319818, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135319838, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135319843, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135321820, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135322528, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135322686, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135322691, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135324350, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135324363, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135324576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135324582, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135325973, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135325988, "dur":1240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135327233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135327238, "dur":7406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673282135334660, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1673282135334736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135334741, "dur":5696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1673282135340451, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1673282135340474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135340482, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1673282135342100, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets11.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1673282135342122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135342129, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets11.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1673282135343950, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":4, "ts":1673282135343966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135343970, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":4, "ts":1673282135344546, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1673282135344561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135344565, "dur":3363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1673282135347946, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1673282135348037, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135348062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135348067, "dur":7978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1673282135356067, "dur":869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1673282135356941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135356947, "dur":2621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1673282135359582, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1673282135359597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135359601, "dur":5758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1673282135365375, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level11.resS" }}
+,{ "pid":12345, "tid":4, "ts":1673282135365391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673282135365430, "dur":6643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level11.resS" }}
+,{ "pid":12345, "tid":4, "ts":1673282135372098, "dur":98559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135202355, "dur":449, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135202804, "dur":1451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135204271, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1673282135204353, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135204458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135265897, "dur":6590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1673282135272498, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135272514, "dur":35208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135307735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135307793, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135308761, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135308777, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135308796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135308801, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135310027, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135310040, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135310189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135310194, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135311961, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135311977, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135312171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135312177, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135313790, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135313887, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135314055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135314061, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135315920, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135315932, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135316148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135316153, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135318589, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135319195, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135319238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135319243, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135320899, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135320998, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135321166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135321171, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135322786, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135322876, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135323093, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135323098, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135325095, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135325110, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135325204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135325210, "dur":2722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135327942, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135327993, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135328247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135328252, "dur":5647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673282135333912, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":5, "ts":1673282135333934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135333938, "dur":26332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":5, "ts":1673282135360281, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level6.resS" }}
+,{ "pid":12345, "tid":5, "ts":1673282135360307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135360311, "dur":8469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level6.resS" }}
+,{ "pid":12345, "tid":5, "ts":1673282135368792, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1673282135368808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673282135368812, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1673282135371571, "dur":99150, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135202405, "dur":413, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135202819, "dur":1434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135204270, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1673282135204389, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135204466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135265765, "dur":6761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1673282135272539, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135272552, "dur":35173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135307737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135307794, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135309766, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135309780, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135309803, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135309808, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135311816, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135311829, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135311860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135311865, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135313511, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135313524, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135313623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135313628, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135315723, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135315735, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135315836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135315841, "dur":4067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135319955, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135320040, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135320181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135320186, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135322142, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135322233, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135322299, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135322304, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135324087, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135324103, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135324184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135324189, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135325672, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135325684, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135325701, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135325706, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135327822, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135327834, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135327960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135327963, "dur":3706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135331682, "dur":31159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135362988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673282135367461, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673282135369169, "dur":101460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135202430, "dur":394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135202824, "dur":1432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135204270, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1673282135204345, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135204426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135208572, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1673282135210491, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1673282135210515, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135210525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135210528, "dur":76898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1673282135287440, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135287454, "dur":20267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135307735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135307787, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135309778, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135310384, "dur":734, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135311123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135311130, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135313969, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135313987, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135314016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135314021, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135316816, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135316829, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135316889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135316896, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135319659, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135319738, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135319760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135319765, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135320718, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135320810, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135320836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135320842, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135322551, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135322929, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135322955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135322961, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135324250, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135324263, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135324282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135324286, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135325501, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135325513, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135325614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135325620, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135327574, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135327587, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135327623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135327628, "dur":6493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673282135334131, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":7, "ts":1673282135334147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135334151, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":7, "ts":1673282135335544, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":7, "ts":1673282135335558, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135335568, "dur":14653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":7, "ts":1673282135350238, "dur":32353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1673282135382592, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135382647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673282135382657, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1673282135383326, "dur":87314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135202463, "dur":366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135202829, "dur":1440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135204269, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1673282135204339, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135204408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135205328, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1673282135207240, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1673282135207272, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135207288, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135207305, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1673282135208121, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1673282135208141, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135208151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135208155, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1673282135208911, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135208948, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135208965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135208969, "dur":101500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135310484, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135310509, "dur":608, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135311123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135311130, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135312612, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135312628, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135312714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135312722, "dur":3480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135316216, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135316235, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135316357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135316364, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135318631, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135318647, "dur":400, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135319053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135319061, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135319976, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135320064, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135320182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135320187, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135320962, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135321038, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135321234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135321239, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135323712, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135323795, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135324080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135324086, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135325308, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135325320, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135325424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135325429, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135326620, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135326635, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135326746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135326753, "dur":7321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673282135334087, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":8, "ts":1673282135334106, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135334112, "dur":5474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":8, "ts":1673282135339602, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1673282135339654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135339662, "dur":24253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1673282135363927, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1673282135363943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135363947, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1673282135364926, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1673282135364939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135364943, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1673282135366580, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level10" }}
+,{ "pid":12345, "tid":8, "ts":1673282135366596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135366601, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level10" }}
+,{ "pid":12345, "tid":8, "ts":1673282135367186, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1673282135367201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135367205, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1673282135369025, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1673282135369096, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135369112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673282135369116, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1673282135370798, "dur":99888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135202502, "dur":333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135202835, "dur":1433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135204268, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1673282135204340, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135204386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135205357, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1673282135207288, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1673282135207311, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135207351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135207358, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1673282135208434, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1673282135208459, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135208475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135208480, "dur":5035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1673282135213526, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1673282135213547, "dur":52214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135265820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135266087, "dur":41837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1673282135307951, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135307975, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135308039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135308046, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135309638, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135309656, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135309812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135309817, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135311436, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135311449, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135311504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135311510, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135313281, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135313297, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135313439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135313443, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135315037, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135315051, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135315245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135315251, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135317758, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135317770, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135317870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135317875, "dur":5906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135323792, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135323997, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135324052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135324060, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135325602, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135325617, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135325707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135325713, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135328565, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135328583, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135328842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135328847, "dur":16838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673282135345702, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1673282135345723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135345727, "dur":13185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1673282135358933, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level8" }}
+,{ "pid":12345, "tid":9, "ts":1673282135358961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135358972, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level8" }}
+,{ "pid":12345, "tid":9, "ts":1673282135362616, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level5" }}
+,{ "pid":12345, "tid":9, "ts":1673282135362638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135362644, "dur":3508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level5" }}
+,{ "pid":12345, "tid":9, "ts":1673282135366164, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level10.resS" }}
+,{ "pid":12345, "tid":9, "ts":1673282135366187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135366191, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level10.resS" }}
+,{ "pid":12345, "tid":9, "ts":1673282135367007, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1673282135367023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135367027, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1673282135368668, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1673282135368687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673282135368692, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1673282135371788, "dur":98886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135202537, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135202841, "dur":1423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135204269, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1673282135204365, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135204473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135211947, "dur":60419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1673282135272378, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135272394, "dur":35325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135307732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135307769, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135309484, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135309965, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135310049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135310054, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135312119, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135312145, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135312294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135312299, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135314228, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135314265, "dur":332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135314602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135314608, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135316231, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135316247, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135316353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135316357, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135318512, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135318621, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135318924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135318930, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135320056, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135320217, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135320266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135320270, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135321497, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135321593, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135321659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135321666, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135323699, "dur":582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135324282, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135324317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135324322, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135326365, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135326377, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135326669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135326674, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135329198, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135329213, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135329230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135329235, "dur":3121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673282135332368, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1673282135332830, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135332867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135333058, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1673282135333752, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":10, "ts":1673282135333801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135333807, "dur":4359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":10, "ts":1673282135338181, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1673282135338199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673282135338207, "dur":132354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1673282135470585, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1673282135470588, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135202561, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135202847, "dur":1415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135204270, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1673282135204352, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135204448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135211433, "dur":55026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1673282135266477, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135266496, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135266518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135266531, "dur":41322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135307881, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135307899, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135307977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135307981, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135309619, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135309633, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135309678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135309683, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135311350, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135311363, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135311385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135311417, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135312682, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135312696, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135312809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135312814, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135315293, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135315305, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135315453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135315458, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135318601, "dur":2025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135320626, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135320843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135320848, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135322765, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135322854, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135322964, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135322969, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135324970, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135324982, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135325025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135325029, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135326710, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135326723, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135326910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135326915, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135328605, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135328619, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135328763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135328768, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135329880, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135329893, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135329909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135329913, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673282135334325, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":11, "ts":1673282135334365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135334370, "dur":12041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":11, "ts":1673282135346423, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673282135346440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135346444, "dur":8507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673282135354973, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level9.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673282135354996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135355004, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level9.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673282135357291, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level8.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673282135357310, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135357314, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level8.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673282135359408, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level7.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673282135359455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135359460, "dur":3997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level7.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673282135363484, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673282135363504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673282135363509, "dur":5975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673282135369494, "dur":101200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135202588, "dur":263, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135202851, "dur":1407, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135204270, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1673282135204335, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135204364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135205329, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1673282135207405, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1673282135207431, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135207467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135207473, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1673282135208745, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135208768, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135208873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135208891, "dur":53174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135262080, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135262097, "dur":3613, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135265715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135266097, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135266873, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135266888, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135266953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135266959, "dur":41650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135308633, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135308648, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135308670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135308818, "dur":2525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135311356, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135311369, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135311493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135311497, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135312884, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135312922, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135313197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135313203, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135314328, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135314339, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135314608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135314635, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135316431, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135316443, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135316639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135316643, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135319279, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135319679, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135319706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135319711, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135321519, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135321611, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135321648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135321653, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135323296, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135323392, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135323575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135323580, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135325105, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135325130, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135325202, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135325211, "dur":3891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135329114, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135329127, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135329145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135329150, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135330932, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135331187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135331192, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673282135333289, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1673282135333320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135333325, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1673282135334588, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1673282135334600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673282135334604, "dur":80430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/DeathObstacle/DeathObstacle_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1673282135415051, "dur":55583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673282135474461, "dur":3036, "ph":"X", "name": "ProfilerWriteOutput" }
+,
